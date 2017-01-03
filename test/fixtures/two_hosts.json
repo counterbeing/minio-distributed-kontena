@@ -1,0 +1,23 @@
+{
+  "action": "get",
+  "node": {
+    "key": "/kontena/haproxy/rails_prod/load_balancer/services/rails_prod-minio/upstreams",
+    "dir": true,
+    "nodes": [
+      {
+        "key": "/kontena/haproxy/rails_prod/load_balancer/services/rails_prod-minio/upstreams/rails_prod-minio-1",
+        "value": "66.6.128.66:9000",
+        "modifiedIndex": 4172,
+        "createdIndex": 4172
+      },
+      {
+        "key": "/kontena/haproxy/rails_prod/load_balancer/services/rails_prod-minio/upstreams/rails_prod-minio-1",
+        "value": "10.81.128.113:9000",
+        "modifiedIndex": 4172,
+        "createdIndex": 4172
+      }
+    ],
+    "modifiedIndex": 3927,
+    "createdIndex": 3927
+  }
+}

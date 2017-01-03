@@ -1,0 +1,12 @@
+version: '2'
+services:
+  minio-distributed-kontena:
+    image: corylogan/minio-distributed-kontena
+    build: .
+    ports:
+      - '9000'
+    environment:
+      KONTENA_STACK_NAME: "minio-stack"
+      KONTENA_SERVICE_NAME: "minio-service"
+      MINIO_ACCESS_KEY: "fakeminioaccesskey"
+      MINIO_SECRET_KEY: "fakeminiosecretkey-needmorechars"
